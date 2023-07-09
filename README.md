@@ -1,4 +1,6 @@
-Simple Wolfenstein-style raycaster in Rust + WASM + Wasm-4
+Simple Wolfenstein-style raycaster in Rust + WASM + Wasm-4.
+Based on <https://grantshandy.github.io/posts/raycasting/>
+
 
 ## How to run
 * Install WASM32 toolchain: `rustup target add wasm32-unknown-unknown`
