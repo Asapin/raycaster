@@ -1,2 +1,13 @@
+# Set default behavior to automatically normalize line endings.
 * text eol=lf
+
+# Batch scripts for Windows should always use CRLF
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+
+# Batch scripts for Linux should always use LF
+*.sh text eol=lf
+
+# Binary files shouldn't be modified.
 *.png binary
+*.jpg binary
